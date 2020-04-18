@@ -127,21 +127,26 @@ For news, i also implemented the category CRUD. There is one category to many ne
 * Contribution: Created St. Joseph General Hospital Project ReadMe File structure, created documentation folder with ERD file ,           wireframes folder.
 
 ## Yegor Fomin
-* Articles
-  - Description: 
-  - Files
-    * Models:
-    * Views:
-    * Controller:
+* Articles (MVP + Home Pages)
+  - Description: So here we have realised basic CRUD functions (Create, Read, Update, Delete) for adding new Posts/Article/Content to the Home Page. We can also ce creator and date of publication. To use that feature you need first create a Doctor in "Register" link in the right uo corner of the page. After that you can use doctor's ID when managing pages(articles) on Home page. 
+  - User Story: So Doctor Archi after hard work day trying to keep exploring world of medecine so he want to upload an article with newest research about COVID-19. So he creating an article and uploading it to the Home Page where everybody can take a look on it. Hopefully there will be a lot of good comments!:)
+  
+   - Files
+    * Models: Page.cs
+    * Views: Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml
+    * Controller: PagesController.cs
  
 * Parking
-  - Description:
-  - Files:
-    * Models:
-    * Views:
-    * Controller
+  - Description: After regestering new stuff ID in the same "Register" link you can use it in "Parking Spots" features. There you can make a record with description about vehicle and his owner. Basic CRUD function working. 
+  - User Story: Steave Jones working at St.Joseph hospital and every evening before going to bed he creating a record in "Parking Spots" features. This way he can make sur that other security stuff will not take his place so there will no be any nerves in the morning. 
+   - Files:
+    * Models: ParkingSpot.cs
+    * Views: Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml
+    * Controller: ParkingSpotsController.cs
     
-* Contribution:
+* Contribution: Created Articles(MVP) and Parking Spots features. Participated through the whole procees with documentation and strategy moves for development of Passion Project for our team#4. 
+Also here is a link on my short video tutorial about using interface for my features: 
+https://youtu.be/WuQ7gLkyxHY
   
   
  
